@@ -28,8 +28,9 @@ class Neighborhood {
   
   meals() {
     const deliveries = this.deliveries();
+    const meals = [];
     
-    return deliveries.filter
+    
   }
 }
 
