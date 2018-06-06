@@ -96,7 +96,7 @@ class Meal {
   }
   
   static byPrice() {
-    
+    return store.meals.sort()
   }
 }
 
