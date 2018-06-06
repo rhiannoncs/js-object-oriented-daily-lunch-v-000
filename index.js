@@ -60,9 +60,7 @@ class Customer {
     const meals = [];
     
     deliveries.forEach(function(delivery) {
-      if (!meals.includes(delivery.meal())) {
         meals.push(delivery.meal());
-      }
     });
     
     return meals;
