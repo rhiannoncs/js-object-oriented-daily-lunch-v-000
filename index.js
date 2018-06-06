@@ -76,4 +76,12 @@ class Delivery {
       return meal.id === findId;
     });
   }
+  
+  customer() {
+    const findId = this.customerId;
+    
+    return store.customers.find(function(customer) {
+      return customer.id === findId;
+    });
+  }
 }
