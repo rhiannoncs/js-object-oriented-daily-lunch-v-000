@@ -88,7 +88,7 @@ class Meal {
     
     deliveries.forEach(function(delivery) {
       if (!customers.includes(delivery.customer())) {
-        customer.push(delivery.customer());
+        customers.push(delivery.customer());
       }
     });
     
