@@ -81,6 +81,19 @@ class Meal {
       return delivery.mealId === this.id;
     });
   }
+  
+  customers() {
+    const deliveries = this.deliveries();
+    const customers = [];
+    
+    deliveries.forEach(function(delivery) {
+      if (!customers.includes(delivery.customer())) {
+        customer.push(delivery.customer());
+      }
+    });
+    
+    return customers;
+  }
 }
 
 class Delivery {
