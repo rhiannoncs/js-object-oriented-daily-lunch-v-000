@@ -94,6 +94,10 @@ class Meal {
     
     return customers;
   }
+  
+  static byPrice() {
+    
+  }
 }
 
 class Delivery {
