@@ -25,6 +25,12 @@ class Neighborhood {
       return customer.neighborhoodId === this.id;
     });
   }
+  
+  meals() {
+    const deliveries = this.deliveries();
+    
+    return deliveries.filter
+  }
 }
 
 class Customer {
