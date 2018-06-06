@@ -66,7 +66,16 @@ class Customer {
     return meals;
   }
   
-  
+  totalSpent() {
+    const meals = this.meals();
+    const cost = [];
+    
+    meals.forEach(function(meal) {
+      cost.push(meal.price);
+    })
+    
+    return 
+  }
 }
 
 class Meal {
