@@ -84,4 +84,12 @@ class Delivery {
       return customer.id === findId;
     });
   }
+  
+  neighborhood() {
+    const findId = this.neighborhoodId;
+    
+    return store.neighborhoods.find(function(neighborhood {
+      return neighborhood.id === findId;
+    }))
+  }
 }
