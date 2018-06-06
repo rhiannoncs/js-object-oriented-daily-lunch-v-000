@@ -74,7 +74,7 @@ class Customer {
       cost.push(meal.price);
     })
     
-    return cost.reduce()
+    return cost.reduce(function(a, b))
   }
 }
 
