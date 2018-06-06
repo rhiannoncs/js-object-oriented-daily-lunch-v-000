@@ -32,7 +32,7 @@ class Neighborhood {
     
     deliveries.forEach(function(delivery) {
       if !(meals.includes(delivery.meal())) {
-        meals.push
+        meals.push(delivery.meal())
       }
     })
   }
