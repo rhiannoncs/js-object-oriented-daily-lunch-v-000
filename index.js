@@ -70,6 +70,7 @@ class Delivery {
     store.deliveries.push(this);
   }
   
+  const findMealId = this.mealId;
   meal() {
     return store.meals.find(function(meal) {
       return meal.id === this.mealId;
