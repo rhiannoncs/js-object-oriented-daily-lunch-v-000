@@ -30,7 +30,9 @@ class Neighborhood {
     const deliveries = this.deliveries();
     const meals = [];
     
-    deliveries.forEach(function(delivery))
+    deliveries.forEach(function(delivery) {
+      
+    })
   }
 }
 
