@@ -69,11 +69,11 @@ class Delivery {
     
     store.deliveries.push(this);
   }
-  
-  const findMealId = this.mealId;
   meal() {
+    const findId = this.mealId;
+    
     return store.meals.find(function(meal) {
-      return meal.id === this.mealId;
+      return meal.id === findId;
     });
   }
 }
