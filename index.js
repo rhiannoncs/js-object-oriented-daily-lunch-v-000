@@ -41,6 +41,7 @@ class Customer {
       return delivery.customerId === this.id;
     });
   }
+  
 }
 
 class Meal {
