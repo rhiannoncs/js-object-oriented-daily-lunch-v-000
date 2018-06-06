@@ -15,7 +15,7 @@ class Neighborhood {
   }
   
   deliveries() {
-    return 
+    return store.deliveries.filter()
   }
 }
 
