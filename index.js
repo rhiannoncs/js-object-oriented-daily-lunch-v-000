@@ -72,9 +72,9 @@ class Customer {
     
     meals.forEach(function(meal) {
       cost.push(meal.price);
-    })
+    });
     
-    return cost.reduce(function(a, b) {return a + b;})
+    return cost.reduce(function(a, b) {return a + b;} );
   }
 }
 
